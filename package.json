@@ -1,0 +1,32 @@
+{
+  "name": "hk416-theme",
+  "displayName": "HK416 Theme",
+  "description": "A Girls' Frontline VSCode theme",
+  "publisher": "Filipe Barros",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "HK416 Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hk416.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "author": "Filipe Barros",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barrosfilipe/hk416-theme"
+  }
+}
